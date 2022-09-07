@@ -1,0 +1,2 @@
+See this link: https://github.com/jakesanghavi/NFL_Stats/tree/main/Logo_Pack
+This contains a logo for each NFL team as a png file, with the name of the file being the abbreviation for the team.
