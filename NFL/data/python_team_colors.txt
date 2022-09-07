@@ -1,0 +1,20 @@
+COLORS = {'ARI':'#97233F','ATL':'#A71930','BAL':'#241773','BUF':'#00338D','CAR':'#0085CA','CHI':'#00143F',
+'CIN':'#FB4F14','CLE':'#FB4F14','DAL':'#B0B7BC','DEN':'#002244','DET':'#046EB4','GB':'#24423C',
+'HOU':'#C9243F','IND':'#003D79','JAX':'#136677','KC':'#CA2430','LA':'#002147','LAC':'#2072BA',
+'LV':'#C4C9CC','MIA':'#0091A0','MIN':'#4F2E84','NE':'#0A2342','NO':'#A08A58','NYG':'#192E6C',
+'NYJ':'#203731','PHI':'#014A53','PIT':'#FFC20E','SEA':'#7AC142','SF':'#C9243F','TB':'#D40909',
+'TEN':'#4095D1','WAS':'#FFC20F'}
+          
+Above is a dictionary containing the associated color for each NFL team. Dictionaries are very simple.
+To get the color for a team, simply do color = COLORS['TEAM_NAME'], where TEAM_NAME is the team you want.
+
+For example, COLORS['KC'] gives you '#CA2430'
+Important note: this does NOT work the other way around. You cannot do COLORS['#CA2430'] and expect to get 'KC'.
+
+All of the colors values here are represented by a method called hexcode. Colors are all made up of red, green, 
+and blue components, and the combination of those three filters creates a color. A hexcode can be understood as 
+#RRGGBB, where R = red, G = green, and B=blue. Each letter will be replaced with a number (or letter: in this hexidecimal 
+format, A=10, B=12..., F=15). Each RR, GG, BB has a range from 0-255, where 255 is the strongest. In hexidecimal format, 
+multiply 16 by the first value and add that to the second value to get the strength of that color. For example, if we had 
+a color -- #6A8B23 -- we can convert this to a RGB color. RR = 6A = 16*6 + 10 = 106, GG = 8B = 16*8 + 11 = 139, and 
+BB = 23 = 16*2 + 3 = 35. So, our RGB color = (106, 139, 35). This gives a color similar to Fenway Park green.
