@@ -1,0 +1,2 @@
+See this link: https://github.com/jakesanghavi/NBA_Stats/tree/main/Logo_Pack
+This contains logos for each NBA team as a png file, with the title of the image being the three-letter abbreviation for the team.
